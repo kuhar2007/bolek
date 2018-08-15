@@ -1,5 +1,5 @@
 FROM nginx
 MAINTAINER Vadim Kuharenko
-RUN echo 'Hello Bolek!' \
+RUN echo 'Hello User1!' \
         >/usr/share/nginx/html/index.html 
 
